@@ -9,11 +9,12 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">Brand</a>
+      <a class="pull right" href="{{ route('logout') }}">Logout</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      
+        
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
